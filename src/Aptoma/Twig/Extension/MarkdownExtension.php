@@ -29,7 +29,7 @@ class MarkdownExtension extends \Twig\Extension\AbstractExtension implements \Tw
     /**
      * {@inheritdoc}
      */
-    public function getFilters()
+    public function getFilters(): array
     {
         return array(
             new \Twig\TwigFilter(
@@ -54,7 +54,7 @@ class MarkdownExtension extends \Twig\Extension\AbstractExtension implements \Tw
     /**
      * {@inheritdoc}
      */
-    public function getTokenParsers()
+    public function getTokenParsers(): array
     {
         return array(new MarkdownTokenParser());
     }
