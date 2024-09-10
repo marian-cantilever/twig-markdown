@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^7.0|^8.0",
-        "twig/twig": "^2.7.0|^3.0"
+        "twig/twig": "4.x-dev"
     },
     "require-dev": {
         "php": "^7.2.5|^8.0",
